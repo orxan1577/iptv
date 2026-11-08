@@ -49,7 +49,6 @@ def login():
                 and request.form.get("password") == ADMIN_PASS):
             session["login"] = True
             return redirect("/")
-
     return """
     <h2>ORXAN IPTV PANEL</h2>
     <form method="post">
@@ -129,7 +128,6 @@ def kanal():
             "INSERT INTO channels (name, url) VALUES (?, ?)",
             (request.form["name"], request.form["url"])
         )
-
     return redirect("/")
 
 
@@ -156,7 +154,6 @@ def kanal_sil(i):
 
     with connect() as db:
         db.execute("DELETE FROM channels WHERE id=?", (i,))
-
     return redirect("/")
 
 
@@ -199,11 +196,7 @@ def musteri_giris():
 
         if customer and check_password_hash(customer["password_hash"], password):
             if customer["expires"] >= datetime.now().strftime("%Y-%m-%d"):
-                link = url_for(
-                    "playlist",
-                    token=customer["token"],
-                    _external=True
-                )
+                link = url_for("playlist", token=customer["token"], _external=True)
                 return (
                     "<h2>Giriş uğurludur</h2>"
                     f"<a href='{escape(link)}'>M3U Playlist</a>"
@@ -240,7 +233,12 @@ def playlist(token):
     for c in channels:
         content += f"#EXTINF:-1,{c['name']}\n{c['url']}\n"
 
-    return Response(content, mimetype="audio/x-mpegurl")
+
+    return Response(
+        content,
+        mimetype="application/vnd.apple.mpegurl",
+        headers={"Content-Disposition": "inline; filename=playlist.m3u"}
+    )
 
 
 @app.route("/logout")
@@ -256,3 +254,5 @@ if __name__ == "__main__":
         host="0.0.0.0",
         port=int(os.environ.get("PORT", 8080))
     )
+
+
