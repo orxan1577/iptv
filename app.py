@@ -227,7 +227,7 @@ def player_api():
             "stream_id": c["id"],
             "stream_icon": "",
             "epg_channel_id": "",
-            "category_id": "1",
+           "category_id": 1,
             "container_extension": "m3u8"
         } for i, c in enumerate(channels)])
 
