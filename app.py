@@ -1,5 +1,5 @@
 import os
-from flask import Flask, request, redirect, session
+from flask import Flask, request, redirect, session, Response
 from markupsafe import escape
 from datetime import datetime, timedelta
 
@@ -111,7 +111,25 @@ def musteri():
         "expires": expires
     })
     return redirect("/")
+@app.route("/playlist/<username>")
+def playlist(username):
+    customer = next((c for c in customers if c["username"] == username), None)
 
+    if not customer:
+        return "Müştəri tapılmadı", 404
+
+    expires = datetime.strptime(customer["expires"], "%Y-%m-%d").date()
+
+    if expires < datetime.now().date():
+        return "Abunəlik müddəti bitib", 403
+
+    content = "#EXTM3U\n"
+
+    for channel in channels:
+        content += f"#EXTINF:-1,{channel['name']}\n"
+        content += f"{channel['url']}\n"
+
+    return Response(content, mimetype="audio/x-mpegurl")
 @app.route("/logout")
 def logout():
     session.clear()
@@ -119,5 +137,3 @@ def logout():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 8080)))
-
-
