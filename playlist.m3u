@@ -1,7 +1,7 @@
 #EXTM3U
-#PLAYLIST:Asif üçün
+#PLAYLIST:orxan
 
-#EXTINF:-1 tvg-name="ASİF ÜÇÜN HAZIRLANIB" group-title="ASİF ÜÇÜN HAZIRLANIB",ASİF ÜÇÜN HAZIRLANIB
+#EXTINF:-1 tvg-name="orxan" group-title=orxan",orxan
 http://erlyvideo.izone.az:80/spacetv/mono.m3u8
 
 #EXTINF:-1 tvg-id="SpaceTV.az" tvg-name="Space TV" group-title="Azərbaycan",Space TV
@@ -31,11 +31,6 @@ https://lives.atv.az:5443/KANAL-S/streams/kanals.m3u8
 
 #EXTINF:-1 tvg-name="Kanal 17" group-title="Digər",Kanal 17
 http://85.132.78.122:8050/hls/stream/index.m3u8
-
-#EXTM3U
-#EXTINF:-1 tvg-id="KapazTV.az@SD" group-title="Azərbaycan",Kəpəz TV
-http://85.132.78.122:8050/hls/stream/index.m3u8
-
 
 #EXTINF:-1 tvg-name="ARB 24" group-title="Azərbaycan",ARB 24
 http://flussonic.izone.az:80/arb24/mono.m3u8
@@ -181,4 +176,4 @@ http://stream.mcquack.net/108/index.m3u8
 
 #EXTINF:-1 tvg-name="Stream 236" group-title="Digər",Stream 236
 http://stream.mcquack.net/236/index.m3u8
- 
+
