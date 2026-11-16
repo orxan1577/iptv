@@ -1,3 +1,179 @@
-EXTM3U
-#EXTINF:-1, AzTV
-https://node2-az-baku-delta.streamy.group/stream/AzTv/lm3u8
+#EXTM3U
+#PLAYLIST:Asif üçün
+
+#EXTINF:-1 tvg-name="ASİF ÜÇÜN HAZIRLANIB" group-title="ASİF ÜÇÜN HAZIRLANIB",ASİF ÜÇÜN HAZIRLANIB
+http://erlyvideo.izone.az:80/spacetv/mono.m3u8
+
+#EXTINF:-1 tvg-id="SpaceTV.az" tvg-name="Space TV" group-title="Azərbaycan",Space TV
+http://erlyvideo.izone.az:80/spacetv/mono.m3u8
+
+#EXTINF:-1 tvg-name="Dünya TV" group-title="Azərbaycan",Dünya TV
+https://stream.dunyatv.az/live/dunyatv.m3u8
+
+#EXTINF:-1 tvg-id="IctimaiTV.az@SD" tvg-name="İctimai TV" group-title="Azərbaycan",İctimai TV
+https://live.itv.az/itv.m3u8
+
+#EXTINF:-1 tvg-name="ATV Azərbaycan" group-title="Azərbaycan",ATV Azərbaycan
+https://lives.atv.az:5443/ATV_TV_STREAM/streams/atvcanli.m3u8
+
+#EXTINF:-1 tvg-id="AzTV.az@SD" tvg-name="Az TV" group-title="Azərbaycan",Az TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://109.205.166.68/server124/aztv/index3.m3u8?e=1676581573&st=AzGSZjk1DpXY1SLc1m4OvA
+
+#EXTINF:-1 tvg-name="Xəzər TV" group-title="Azərbaycan",Xəzər TV
+http://flussonic.izone.az:80/xezertv/mono.m3u8
+
+#EXTINF:-1 tvg-name="ARB TV" group-title="Azərbaycan",ARB TV
+http://flussonic.izone.az:80/arb/mono.m3u8
+
+#EXTINF:-1 tvg-name="Kanal S" group-title="Azərbaycan",Kanal S
+https://lives.atv.az:5443/KANAL-S/streams/kanals.m3u8
+
+#EXTINF:-1 tvg-name="Kanal 17" group-title="Digər",Kanal 17
+http://85.132.78.122:8050/hls/stream/index.m3u8
+
+#EXTINF:-1 tvg-name="ARB 24" group-title="Azərbaycan",ARB 24
+http://flussonic.izone.az:80/arb24/mono.m3u8
+
+#EXTINF:-1 tvg-name="Baku TV" group-title="Azərbaycan",Baku TV
+https://rtmp.baku.tv/hls/bakutv.m3u8
+
+#EXTINF:-1 tvg-name="Real TV" group-title="Azərbaycan",Real TV
+http://flussonic.izone.az:80/realtv/mono.m3u8
+
+#EXTINF:-1 tvg-name="APA TV" group-title="Azərbaycan",APA TV
+http://stream.apa.tv/apastream/index.m3u8
+
+#EXTINF:-1 tvg-name="Ayaz TV" group-title="Azərbaycan",Ayaz TV
+https://janya-ayaztv.vgcdn.net/ptnr-WebApp/title-Ayaz_TV/v1/vglive-sk-934820/main.m3u8
+
+#EXTINF:-1 tvg-name="Azstar TV HD" group-title="Beynəlxalq",Azstar TV HD
+https://live.livestreamtv.ca/azstar/amlst:azstar/playlist.m3u8
+
+#EXTINF:-1 tvg-name="EL TV" group-title="Azərbaycan",EL TV
+http://85.132.53.162:1935/live/eltv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="KNTV" group-title="Beynəlxalq",KNTV
+https://cdn4.yayin.com.tr/kntv/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-name="Show Plus" group-title="Beynəlxalq",Show Plus
+https://rtmp.showplus.tv/hls/myshow.m3u8
+
+#EXTINF:-1 tvg-name="Könül TV" group-title="Azərbaycan",Könül TV
+http://cdn-konultvazerbaijan.yayin.com.tr:80/konultvazerbaijan/konultvazerbaijan/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Son Ümid TV" group-title="Azərbaycan",Son Ümid TV
+https://cdn-sonumidtv.yayin.com.tr/sonumidtv/sonumidtv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Max TV" group-title="Beynəlxalq",Max TV
+https://cdn4.yayin.com.tr/maxtv/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-name="Mahnı TV" group-title="Musiqi",Mahnı TV
+https://mahnitvonline.xyz/mahnitv/index.m3u8
+
+
+
+#EXTINF:-1 tvg-name="CBC Sport" group-title="Azərbaycan",CBC Sport
+http://flussonic.izone.az:80/cbcsporthd/mono.m3u8
+
+#EXTINF:-1 tvg-name="İdman Azərbaycan" group-title="Azərbaycan",İdman Azərbaycan
+http://flussonic.izone.az:80/idmanaz/mono.m3u8
+
+#EXTINF:-1 tvg-name="Radyo Telekom" group-title="Radio və TV",Radyo Telekom
+https://a8.radyotelekom.com.tr:3276/stream/play.m3u8
+
+#EXTINF:-1 tvg-name="Sirius TV HD" group-title="Beynəlxalq",Sirius TV HD
+https://streamsat.siriushdtv-onlineclap.workers.dev/siriustvhd.m3u8
+
+#EXTINF:-1 tvg-name="NOW TV" group-title="Türkiyə",NOW TV
+http://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8
+
+#EXTINF:-1 tvg-name="A2 TV" group-title="Türkiyə",A2 TV
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv.m3u8
+
+#EXTINF:-1 tvg-name="TRT 1" group-title="Türkiyə",TRT 1
+https://trt.daioncdn.net/trt-1/master.m3u8?app=web
+
+#EXTINF:-1 tvg-name="Kanal D" group-title="Türkiyə",Kanal D
+https://demiroren.daioncdn.net/kanald/kanald_1080p.m3u8?app=kanald_web
+
+#EXTINF:-1 tvg-name="Star TV" group-title="Türkiyə",Star TV
+https://dogus.daioncdn.net/startv/startv.m3u8?app=a20ac41e-bdc3-4aa1-934d-26b484480ac9
+
+#EXTINF:-1 tvg-name="Show TV" group-title="Türkiyə",Show TV
+http://ciner.daioncdn.net/showtv/showtv_1080p.m3u8
+
+#EXTINF:-1 tvg-name="ATV Türkiyə" group-title="Türkiyə",ATV Türkiyə
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv.m3u8
+
+
+#EXTINF:-1 tvg-name="Kanal 7" group-title="Türkiyə",Kanal 7
+https://kanal7-live.daioncdn.net/kanal7/kanal7.m3u8
+
+#EXTINF:-1 tvg-name="Euro D" group-title="Türkiyə",Euro D
+http://live.duhnet.tv/S2/HLS_LIVE/eurodnp/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Beyaz TV" group-title="Türkiyə",Beyaz TV
+https://beyaztv-live.daioncdn.net/beyaztv/beyaztv.m3u8
+
+#EXTINF:-1 tvg-name="Cine 5" group-title="Türkiyə",Cine 5
+https://host.onlineradyotv.net:8081/cine5tv/index.m3u8
+
+#EXTINF:-1 tvg-name="Radyo Telekom 2" group-title="Radio və TV",Radyo Telekom 2
+https://ip44.radyotelekomtv.com:3958/stream/play.m3u8
+
+#EXTINF:-1 tvg-name="SDM TV" group-title="Türkiyə",SDM TV
+https://host.onlineradyotv.net:8081/sdmtv/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-name="Cine Plus Yeşilçam" group-title="Türkiyə",Cine Plus Yeşilçam
+http://cineplus-yesilcam.supersatadmin.workers.dev/cineplusyesilcam.m3u8
+
+#EXTINF:-1 tvg-name="Cine 1" group-title="Türkiyə",Cine 1
+http://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3.m3u8
+
+#EXTINF:-1 tvg-name="Stream 182" group-title="Digər",Stream 182
+http://stream.mcquack.net/182/index.m3u8
+
+#EXTINF:-1 tvg-name="Stream 200" group-title="Digər",Stream 200
+http://stream.mcquack.net/200/index.m3u8
+
+#EXTINF:-1 tvg-name="Stream 107" group-title="Digər",Stream 107
+http://stream.mcquack.net/107/index.m3u8
+
+#EXTINF:-1 tvg-name="Stream 171" group-title="Digər",Stream 171
+http://stream.mcquack.net/171/index.m3u8
+
+#EXTINF:-1 tvg-name="Stream 278" group-title="Digər",Stream 278
+http://stream.mcquack.net/278/index.m3u8
+
+#EXTINF:-1 tvg-name="Stream 170" group-title="Digər",Stream 170
+http://stream.mcquack.net/170/index.m3u8
+
+
+#EXTINF:-1 tvg-name="Stream 64" group-title="Digər",Stream 64
+http://stream.mcquack.net/64/index.m3u8
+
+#EXTINF:-1 tvg-name="Stream 133" group-title="Digər",Stream 133
+http://stream.mcquack.net/133/index.m3u8
+
+#EXTINF:-1 tvg-name="Stream 265" group-title="Digər",Stream 265
+http://stream.mcquack.net/265/index.m3u8
+
+#EXTINF:-1 tvg-name="Stream 126" group-title="Digər",Stream 126
+http://stream.mcquack.net/126/index.m3u8
+
+#EXTINF:-1 tvg-name="Stream 221" group-title="Digər",Stream 221
+http://stream.mcquack.net/221/index.m3u8
+
+#EXTINF:-1 tvg-name="Stream 104" group-title="Digər",Stream 104
+http://stream.mcquack.net/104/index.m3u8
+
+#EXTINF:-1 tvg-name="Stream 385" group-title="Digər",Stream 385
+http://stream.mcquack.net/385/index.m3u8
+
+#EXTINF:-1 tvg-name="Stream 108" group-title="Digər",Stream 108
+http://stream.mcquack.net/108/index.m3u8
+
+#EXTINF:-1 tvg-name="Stream 236" group-title="Digər",Stream 236
+http://stream.mcquack.net/236/index.m3u8
+ 
