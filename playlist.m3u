@@ -1,8 +1,6 @@
 #EXTM3U
 #PLAYLIST:orxan
 
-#EXTINF:-1 tvg-name="orxan" group-title=orxan",orxan
-http://erlyvideo.izone.az:80/spacetv/mono.m3u8
 
 #EXTINF:-1 tvg-id="SpaceTV.az" tvg-name="Space TV" group-title="Azərbaycan",Space TV
 http://erlyvideo.izone.az:80/spacetv/mono.m3u8
